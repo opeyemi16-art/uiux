@@ -43,7 +43,7 @@
             />
             <span
               class="ms-1 text-light"
-              style="font-weight: 7500; font-size: 1.3rem"
+              style="font-weight: 7500; font-size: 1.2rem"
             >
               Devnaija Academy
             </span>
@@ -184,7 +184,9 @@
               </ul>
             </li>
           </ul>
-          <button class="list-btn rounded shadow">Register</button>
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="list-btn rounded shadow">Register</button>
+          </div>
         </div>
       </div>
     </nav>
@@ -202,9 +204,11 @@
             today’s fast-paced digital world, mastering UI/UX gives you the
             power to create products people love to interact with.
           </p>
-          <button class="list-btn shadow rounded mt-3">
-            Get Program Package
-          </button>
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="list-btn shadow rounded mt-3">
+              Get Program Package
+            </button>
+          </div>
         </div>
 
         <div class="col-md-6">
@@ -225,60 +229,57 @@
       >
         Our Process
       </h2>
-      <div class="row mx-3 our-process">
-        <div class="col-md-4">
-          <div class="card border-0 shadow mb-2 p-2" style="width: 21rem">
+
+      <div class="row justify-content-center text-center mx-3 our-process">
+        <!-- Step 1 -->
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+          <div class="card border-0 shadow p-3" style="width: 21rem">
             <img
               src="https://techstudioacademy.com/_next/image?url=%2Ficons%2Fno1.webp&w=96&q=75"
-              alt=""
-              style="width: 15%; height: 15%; align-self: center"
-              class="img-fluid card-img-top mb-2"
+              alt="Step 1"
+              class="img-fluid card-img-top mb-3"
+              style="width: 15%; height: auto; margin: 0 auto"
             />
-            <span
-              class="py-"
-              style="text-align: center; font-size: 104%; font-weight: 500"
-              >Learn how to research and identify user needs using empathy maps,
+            <span style="text-align: center; font-size: 104%; font-weight: 500">
+              Learn how to research and identify user needs using empathy maps,
               personas, and journey maps. You’ll explore the fundamentals of
               design thinking and how great experiences are built from real user
-              insights.</span
-            >
+              insights.
+            </span>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card border-0 shadow mb-2 p-2" style="width: 21rem">
+        <!-- Step 2 -->
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+          <div class="card border-0 shadow p-3" style="width: 21rem">
             <img
               src="https://techstudioacademy.com/_next/image?url=%2Ficons%2Fno2.webp&w=96&q=75"
-              alt=""
-              style="width: 15%; height: 15%; align-self: center"
-              class="img-fluid card-img-top"
+              alt="Step 2"
+              class="img-fluid card-img-top mb-3"
+              style="width: 15%; height: auto; margin: 0 auto"
             />
-            <span
-              class="py-3"
-              style="text-align: center; font-size: 104%; font-weight: 500"
-              >Discover how to turn ideas into functional layouts. You’ll
+            <span style="text-align: center; font-size: 104%; font-weight: 500">
+              Discover how to turn ideas into functional layouts. You’ll
               practice creating wireframes and interactive prototypes using
-              tools like Figma or Adobe XD, focusing on usability and
-              flow.</span
-            >
+              tools like Figma or Adobe XD, focusing on usability and flow.
+            </span>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card border-0 shadow mb-2 p-2" style="width: 21rem">
+        <!-- Step 3 -->
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+          <div class="card border-0 shadow p-3" style="width: 21rem">
             <img
               src="https://techstudioacademy.com/_next/image?url=%2Ficons%2Fno3.webp&w=96&q=75"
-              alt=""
-              style="width: 15%; height: 15%; align-self: center"
-              class="img-fluid card-img-top"
+              alt="Step 3"
+              class="img-fluid card-img-top mb-3"
+              style="width: 15%; height: auto; margin: 0 auto"
             />
-            <span
-              class="py-3"
-              style="text-align: center; font-size: 104%; font-weight: 500"
-              >Bring your designs to life with color, typography, and spacing.
+            <span style="text-align: center; font-size: 104%; font-weight: 500">
+              Bring your designs to life with color, typography, and spacing.
               You’ll also learn how to conduct usability tests, gather feedback,
-              and refine your designs for real-world use.</span
-            >
+              and refine your designs for real-world use.
+            </span>
           </div>
         </div>
       </div>
@@ -443,7 +444,7 @@
     <section class="container-fluid pb-3 review">
       <h5
         style="
-          justify-self: center;
+          text-align: center;
           font-size: 210%;
           font-weight: 600;
           margin-bottom: 4%;
@@ -482,7 +483,7 @@
 
     <!-- FAQS -->
     <section class="container-fluid faq mb-5">
-      <p class="faq-p">FAQS</p>
+      <p class="faq-p" style="text-align: center">FAQS</p>
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -621,14 +622,21 @@
         </div>
       </div>
 
-      <p class="ask-us mt-3" style="justify-self: center; font-size: 110%">
-        Can’t find the answer you are looking for?
-        <a
-          href=""
-          style="color: #131a29; font-weight: 500; text-decoration: none"
-          >Send us a message here</a
-        >
-      </p>
+      <div class="d-flex justify-content-center align-items-center">
+        <p class="ask-us mt-3" style="font-size: 110%">
+          Can’t find the answer you are looking for?
+          <a
+            href=""
+            style="
+              color: #131a29;
+              font-weight: 500;
+              text-decoration: none;
+              text-align: center;
+            "
+            >Send us a message here</a
+          >
+        </p>
+      </div>
     </section>
 
     <!-- FOOTER -->
@@ -705,7 +713,7 @@
 
       <hr style="color: white" />
 
-      <p class="text-light" style="justify-self: center">
+      <p class="text-light" style="text-align: center">
         Copyright © 2010 DevNaija Academy ®
       </p>
     </footer>
